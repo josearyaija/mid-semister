@@ -19,14 +19,12 @@
     html { scroll-behavior: smooth; }
     body { font-family: "Segoe UI", system-ui, -apple-system, sans-serif; padding-top: 70px; }
 
-    /* ---------- Navbar ---------- */
     .navbar { background-color: var(--brand-dark); }
     .navbar-brand { font-weight: 700; letter-spacing: .5px; }
     .navbar .nav-link { color: rgba(255,255,255,.85); font-weight: 500; }
     .navbar .nav-link:hover,
     .navbar .nav-link.active { color: var(--accent); }
 
-    /* ---------- Page banner ---------- */
     .page-banner {
       color: #fff;
       padding: 4rem 0;
@@ -34,7 +32,6 @@
     }
     .page-banner h1 { font-weight: 800; }
 
-    /* ---------- Section titles ---------- */
     .section-title { font-weight: 700; position: relative; padding-bottom: .75rem; margin-bottom: 2.5rem; }
     .section-title::after {
       content: "";
@@ -48,7 +45,6 @@
       transform: translateX(-50%);
     }
 
-    /* ---------- Video ---------- */
     .video-card {
       border: none;
       border-radius: 1rem;
@@ -57,7 +53,6 @@
     }
     .video-card video { background: #000; }
 
-    /* ---------- Gallery ---------- */
     .gallery-card {
       border: none;
       border-radius: 1rem;
@@ -128,7 +123,6 @@
         <div class="col-lg-9">
           <figure class="card video-card mb-0">
 
-            <!-- OPTION A: HTML5 video (local file). Put your video in a "media" folder. -->
             <div class="ratio ratio-16x9">
               <video controls preload="metadata" poster="WhatsApp Video 2026-10-19 at 6.00.35 PM.mp4">
                 <source src="WhatsApp Video 2026-10-19 at 6.00.35 PM.mp4" type="video/mp4">
@@ -139,15 +133,6 @@
               </video>
             </div>
 
-            <!-- OPTION B: YouTube embed (responsive). To use it, delete Option A above
-                 and uncomment this block, replacing VIDEO_ID with your video's ID.
-            <div class="ratio ratio-16x9">
-              <iframe src="https://www.youtube.com/embed/VIDEO_ID"
-                      title="Why I chose my degree: self-motivation video"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-            </div>
-            -->
 
             <figcaption class="card-body bg-white">
               <h5 class="card-title mb-1">Why I Chose software enginering</h5>
@@ -169,7 +154,6 @@
 
       <div class="row g-4">
 
-        <!-- Item 1 -->
         <div class="col-sm-6 col-lg-4">
           <figure class="card gallery-card h-100 mb-0">
             <div class="img-wrap" data-bs-toggle="modal" data-bs-target="#imageModal"
@@ -184,7 +168,6 @@
           </figure>
         </div>
 
-        <!-- Item 2 -->
         <div class="col-sm-6 col-lg-4">
           <figure class="card gallery-card h-100 mb-0">
             <div class="img-wrap" data-bs-toggle="modal" data-bs-target="#imageModal"
@@ -213,7 +196,6 @@
           </figure>
         </div>
 
-        <!-- Item 5 -->
         <div class="col-sm-6 col-lg-4">
           <figure class="card gallery-card h-100 mb-0">
             <div class="img-wrap" data-bs-toggle="modal" data-bs-target="#imageModal"
